@@ -3,13 +3,22 @@ import "./App.css";
 function SearchBar() {
   return (
     <div className="Header">
-      <div>
-        <form>
-          <input placeholder="book search"></input>
-          <input type="button" value="start a collection"></input>
-          <input type="button" value="view popular collections"></input>
-        </form>
-      </div>
+      <form>
+        <div>
+          search for books:
+          <input className="searchbar-inputs" placeholder="book search"></input>
+        </div>
+        <input
+          className="searchbar-inputs"
+          type="button"
+          value="start a collection +"
+        ></input>
+        <input
+          className="searchbar-inputs"
+          type="button"
+          value="view popular collections"
+        ></input>
+      </form>
     </div>
   );
 }

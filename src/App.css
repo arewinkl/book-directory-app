@@ -46,3 +46,9 @@
     transform: rotate(360deg);
   }
 }
+
+.searchbar-inputs {
+  margin: 20px;
+  padding: 20px;
+  color: red;
+}
