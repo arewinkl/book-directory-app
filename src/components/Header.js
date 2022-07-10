@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import SearchBar from "./Search-bar";
 // import { useState } from "react";
 function Header() {
