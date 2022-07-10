@@ -18,6 +18,11 @@ function SearchBar() {
           type="button"
           value="view popular collections"
         ></input>
+        <input
+          className="searchbar-inputs"
+          type="buttons"
+          value="Find Bookstores"
+        ></input>
       </form>
     </div>
   );
